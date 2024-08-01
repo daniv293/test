@@ -3,4 +3,4 @@
 	url = git@github.com:daniv293/helath.git
 [submodule "apps/sso"]
 	path = apps/sso
-	url = git@github.com-xdt:daniv293/sso.git
+	url = git@github.com:daniv293/sso.git
