@@ -1,6 +1,3 @@
 [submodule "apps/health"]
 	path = apps/health
 	url = git@github.com:daniv293/helath.git
-[submodule "apps/sso"]
-	path = apps/sso
-	url = git@github.com:daniv293/sso.git
