@@ -24,4 +24,6 @@ jobs:
           persist-credentials: true
 
       - name: enter to submodule
-        run: cat ./apps/health/README.md
+        run: |
+          pwd
+          ls
