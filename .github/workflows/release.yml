@@ -13,8 +13,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         with:
-          submodules: true # Inicializa y actualiza los submódulos
           ssh-key: ${{ secrets.SSH-PRIVATE-KEY }} # Necesario si tus submódulos son privados
+          submodules: true # Inicializa y actualiza los submódulos
 
       - name: enter to submodule
         run: cat ./apps/health/README.md
