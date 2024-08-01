@@ -1,0 +1,20 @@
+name: CI with Submodules
+
+on:
+  push:
+    branches:
+      - develop2
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          submodules: true # Inicializa y actualiza los submódulos
+          token: ${{ secrets.GITHUB_TOKEN }} # Necesario si tus submódulos son privados
+
+      - name: enter to submodule
+        run: cat ./apps/sso/README.md
