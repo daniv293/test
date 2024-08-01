@@ -26,4 +26,4 @@ jobs:
       - name: enter to submodule
         run: |
           pwd
-          ls
+          cat ./apps/sso/README.md
