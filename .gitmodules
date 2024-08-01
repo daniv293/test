@@ -1,0 +1,3 @@
+[submodule "apps/health"]
+	path = apps/health
+	url = https://github.com/daniv293/helath.git

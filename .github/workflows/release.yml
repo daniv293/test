@@ -17,4 +17,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }} # Necesario si tus submódulos son privados
 
       - name: enter to submodule
-        run: cat ./apps/sso/README.md
+        run: cat ./apps/health/README.md
