@@ -1,3 +1,0 @@
-[submodule "apps/sso"]
-	path = apps/sso
-	url = git@github.com:daniv293/sso.git
